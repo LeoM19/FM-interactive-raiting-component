@@ -1,0 +1,20 @@
+:root {
+  --orange-500: hsl(25, 97%, 53%);
+  --white: hsl(0, 100%, 100%);
+  --grey-500: hsl(217, 12%, 63%);
+  --grey-900: hsl(213, 19%, 18%);
+  --grey-950: hsl(216, 12%, 8%);
+
+  --font-size-paragraph: 15px;
+
+  --font-family: "Overpass", sans-serif, verdana;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: var(--font-family);
+  background-color: var(--grey-950);
+}
